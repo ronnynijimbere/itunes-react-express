@@ -1,0 +1,39 @@
+{
+  "name": "itunes-react-express",
+  "version": "1.0.0",
+  "description": "Full Stack React-Express App",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronnynijimbere/itunes-react-express.git"
+  },
+  "keywords": [
+    "React-Express"
+  ],
+  "author": "Ronny Nijimbere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronnynijimbere/itunes-react-express/issues"
+  },
+  "homepage": "https://github.com/ronnynijimbere/itunes-react-express#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "concurrently": "4.1.1",
+    "mocha": "6.2.0",
+    "nodemon": "1.19.1"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "body-parser": "1.19.0",
+    "cookie-parser": "1.4.4",
+    "express": "4.17.1",
+    "express-handlebars": "3.1.0",
+    "helmet": "3.19.0",
+    "moment": "2.24.0",
+    "morgan": "1.9.1",
+    "serve-favicon": "2.5.0"
+  }
+}
